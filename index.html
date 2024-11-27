@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pjanoo Melody</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.36/Tone.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #4a90e2, #9013fe);
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #333;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <button id="playMelodyButton">Play Main Melody</button>
+    <button id="stopMelodyButton" style="display: none;">Stop Main Melody</button>
+    <button id="playMelody2Button">Play Melody 2</button>
+<button id="stopMelody2Button" style="display: none;">Stop Melody 2</button>
+    <button id="playDrumsButton">Play Drums</button>
+    <button id="stopDrumsButton" style="display: none;">Stop Drums</button>
+    <button id="playChordsButton">Play Chords</button>
+    <button id="stopChordsButton" style="display: none;">Stop Chords</button>
+  <button id="playBassButton">Play Bass</button>
+  <button id="stopBassButton" style="display: none;">Stop Bass</button>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
+
